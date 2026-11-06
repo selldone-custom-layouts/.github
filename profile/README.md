@@ -1,0 +1,33 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/selldone-custom-layouts/.github/main/assets/banner.png" alt="Selldone Custom Layouts" width="100%">
+</p>
+
+**Official custom storefronts for [Selldone](https://selldone.com) shops.** Each repository here is a complete storefront **Layout**, built on the official [selldone/storefront](https://github.com/selldone/storefront). Each one comes with a live shop you can try, screenshots of every page, and a wiki that walks you, or your AI agent, through putting it on your own shop.
+
+## Layouts
+
+<!-- LAYOUTS:START -->
+<table>
+<tr><td width="50%" valign="top"><a href="https://molino.selldone.shop"><img src="https://raw.githubusercontent.com/selldone-custom-layouts/official-molino/main/docs/screenshots/cover.jpg" alt="Molino Market Hall" width="100%"></a><br><b><a href="https://github.com/selldone-custom-layouts/official-molino">Molino Market Hall</a></b><br><sub>Grocery marketplace</sub><br>A multi-vendor grocery storefront in the spirit of Amazon Fresh: a deals banner, every aisle, rows of products with the seller on every card, an Amazon-style Add to basket, a map-first checkout and a buyer account.<br><br><a href="https://molino.selldone.shop">Live shop</a> · <a href="https://github.com/selldone-custom-layouts/official-molino">Code</a> · <a href="https://github.com/selldone-custom-layouts/official-molino/wiki">Wiki</a> · <a href="https://github.com/selldone-custom-layouts/official-molino/wiki/Install-with-AI">Set up with AI</a></td><td width="50%"></td></tr>
+</table>
+
+<sub>1 public Layout · this list updates itself.</sub>
+<!-- LAYOUTS:END -->
+
+## Put a Layout on your shop
+
+1. **Pick one** above and open its **live shop** to try it.
+2. **Set it up with AI:** open the Layout's wiki page **Install with AI**, fill in your shop handle and shop id, and paste the prompt into Claude Code, Codex or another coding agent. The agent forks the repository, points it at your shop, builds it, uploads it with the official [selldone-cli](https://github.com/selldone/cli) and puts it live. You only sign in to the CLI yourself and type your 2FA code.
+3. **Or do it yourself** with the wiki's **Manual Setup**, **Build and Upload** and **Go Live** pages.
+4. **Check your data** with **Shop Requirements**: category icons, product photos, units, seller offers and specs for filters.
+
+## What every Layout here has
+
+- A **live demo shop** and **screenshots** from it, on desktop and phone.
+- A complete **wiki**: Install with AI, Manual Setup, Shop Requirements, Build and Upload, Go Live, Customize, Troubleshooting.
+- A `selldone-layout.json` card, which puts it in the gallery above once the repository is public.
+- Selldone's commerce logic intact: basket, checkout, payments, vendor offers and orders. Only the design changes.
+
+## Links
+
+[Selldone](https://selldone.com) · [Storefront base](https://github.com/selldone/storefront) · [Selldone CLI](https://github.com/selldone/cli) · [Add a Layout to this organization](https://github.com/selldone-custom-layouts/.github/blob/main/CONTRIBUTING.md)
